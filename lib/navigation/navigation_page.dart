@@ -28,7 +28,10 @@ class _NavigationPageState extends State<NavigationPage> {
         items: [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
           BottomNavigationBarItem(icon: Icon(Icons.wallet), label: "Expenses"),
-          BottomNavigationBarItem(icon: Icon(Icons.settings), label: "Settings")
+          BottomNavigationBarItem(
+            icon: Icon(Icons.settings),
+            label: "Settings",
+          ),
         ],
         selectedItemColor: Colors.white,
         unselectedItemColor: AppColors.secondaryColor,
